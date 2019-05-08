@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testmocha": "mocha index.test.js"
+    "testmocha:watch": "mocha -w -b index.test.js"
   },
   "keywords": [],
   "author": "",
